@@ -21,7 +21,7 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     vertical-align: middle;
     padding: 10px;
-    word-spacing: 40px;
+    word-spacing: 1.5em;
     font-size: 28px;
     letter-spacing: 10px;
 }
@@ -29,10 +29,14 @@ h1 {
 
 /* ---------------------------------MAIN------------------------------------------ */
 
-main {
-    padding-inline-start: 28.5%;
+main section {
+    /* padding-inline-start: 28.5%;
     padding-inline-end: 28.5%;
-    padding-top: 1%;
+    padding-top: 1%; */
+    /* margin-inline-start: 500px; */
+    margin-left: 28vw;
+    margin-inline-end: 28vw;
+    padding-top: 1vh;
 }
 
 h2 {
@@ -41,7 +45,7 @@ h2 {
     text-transform: uppercase;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 10px;
+    letter-spacing: 0.5em;
 }
 
 #FormacionAcademica {
@@ -77,10 +81,10 @@ footer {
     font-size: 24px;
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: 360;
-    /* padding: 1%; */
 }
 
-footer span {
+footer div {
+    display: contents;
     vertical-align: text-bottom;
 }
 
